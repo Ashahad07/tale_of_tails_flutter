@@ -102,7 +102,7 @@ class LocationController extends GetxController {
       totalTime: totalTime, // Calculate and store total time in hh:mm:ss format
     );
 
-    var box = await Hive.openBox<TrackHistory>('journeys');
+    var box = await Hive.openBox<TrackHistory>('track_history');
     await box.add(journey);
 
     print("Journey saved ✅");

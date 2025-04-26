@@ -9,7 +9,7 @@ class TrackHistoryScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final journeyBox = Hive.box<TrackHistory>('journeys');
+    final journeyBox = Hive.box<TrackHistory>('track_history');
 
     return Scaffold(
       appBar: AppBar(
