@@ -13,7 +13,7 @@ class TrackHistoryScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text(
+        title: const Text( 
           "Track History",
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
